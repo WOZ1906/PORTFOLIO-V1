@@ -369,6 +369,10 @@ margin-bottom: var(--mb-4);
     color: #fff;
     margin: 0 var(--mb-2);
 }
+.footer_social a i:hover {
+opacity: 1;
+color: #4070F4;
+}
 /* ===== MEDIA QUERIES=====*/
 @media screen and (min-width: 768px){
     body{
