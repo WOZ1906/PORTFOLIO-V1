@@ -55,3 +55,7 @@ sr.reveal('.work__img',{interval: 200})
 
 /*===== SCROLL CONTACT =====*/
 sr.reveal('.contact__input',{interval: 200})
+
+// year updater 
+let currentYear = new Date().getFullYear();
+document.getElementById("current-year").textContent = currentYear;
